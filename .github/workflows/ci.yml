@@ -17,7 +17,7 @@ jobs:
     - uses: elgohr/Publish-Docker-Github-Action@master
       name: Publish to Docker
       with:
-        name: nickgronow/kubectl
+        name: smichalk/kubectl
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         tags: latest,1.20
